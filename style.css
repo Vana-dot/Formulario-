@@ -4,6 +4,7 @@ body{
   background-size:cover; 
   font:1.5rem 'Teko', sans-serif;
 }
+
 .inputs::placeholder,#select1{
   font:1rem 'Teko', sans-serif;
   color:#8a817c;

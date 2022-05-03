@@ -3,4 +3,3 @@ function myname(){
     let nome = document.getElementById('name').value;
     alert(`Usuário: ${nome} submetido com sucesso`);
 }
-
