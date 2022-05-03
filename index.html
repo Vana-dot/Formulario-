@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulário</title>
+    <link rel="icon" href="../Formulário/Imagens/Imaicon.png">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <main id="container">
+      <h1 style="color:#FFF;">Desenvolvimento Web </h1>
+        <!--Formulario-->
+        <form  action="" class="formulario">
+          <label for="" class="labels">Nome do usúario</label>
+          <input class="inputs" id="name" type="text" placeholder="Seu nome" autofocus required>
+          <label for="" class="labels">E-mail</label>
+          <input class="inputs" type="email" placeholder="Seu email" required>
+          <label for="" class="labels">Selecione a cidade</label>
+          <select required id="select1">
+            <option value="">Selecione</option>
+            <option value="Massara">Massaranduba</option>
+            <option value="Cg">Campina grande</option>
+            <option value="Jp">João pessoa</option>
+            <option value="Br">Brasil</option>
+            <option value="Cd">Cordeiro</option>
+          </select>
+          <label for="" class="labels">Senha</label>
+          <input class="inputs" type="password" placeholder="Sua senha" required>
+          <label for="" class="labels">Repetir senha</label>
+          <input class="inputs" type="password" placeholder="Repitar a senha" required>
+          <label for="">Sexo</label>  
+          <label for="" class="txt1">Feminino</label>
+          <input type="radio" class="txt"  onclick="mardesma" value="Feminino" name="radios">
+          <label for=""class="txt1">Masculino</label>
+          <input type="radio" class="txt" onclick="mardesma" value="Masculino" name="radios">
+          <label for="" class="txt1">Prefiro não dizer</label>
+          <input type="radio" class="txt"  onclick="mardesma" value="Prefiro" name="radios">
+          <br/>
+          <button class="butao" onclick='myname()'>Enviar</button>
+          <br/>   
+        </form>
+    
+        <script src="../Formulário/script.js"></script>
+      
+    </main>
+  </body>
+</html>

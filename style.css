@@ -1,0 +1,44 @@
+body{
+  background-image:url('../Formulário/Imagens/foto1.jpg');
+  background-position:center ;
+  background-size:cover; 
+  font:1.5rem 'Teko', sans-serif;
+}
+.inputs::placeholder,#select1{
+  font:1rem 'Teko', sans-serif;
+  color:#8a817c;
+}
+#container,.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formulario{
+  background-color:rgba(32, 2, 2, 0.5);
+  border-radius: 40px; 
+  color: #FFF;
+}
+.butao,.inputs,.labels,#select1{
+  margin-bottom:4px; 
+  border-radius:10px;
+  border-color:#000;  
+  outline: none;
+  margin-left:10px;
+  margin-right:10px;  
+}
+.txt1{
+  font-size: 1.2rem;
+  color:#e5e5e5;
+}
+.txt,.title2{
+  margin-bottom:.34rem;
+}
+.butao{
+  font:1.5rem 'Teko', sans-serif;
+  /*background: #C9C9C9;*/
+}
+.butao:hover{
+  background-color:#8a817c; 
+}
+
+  
